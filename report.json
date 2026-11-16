@@ -1,0 +1,339 @@
+{
+  "file": "data/clip.mp4",
+  "file_size": 2649,
+  "top_level": [
+    {
+      "tag": "ftyp",
+      "start": 0,
+      "size": 32,
+      "body_start": 8
+    },
+    {
+      "tag": "mdat",
+      "start": 32,
+      "size": 1928,
+      "body_start": 40
+    },
+    {
+      "tag": "moov",
+      "start": 1960,
+      "size": 689,
+      "body_start": 1968
+    }
+  ],
+  "mdat_box_offset": 32,
+  "mdat_data_offset": 40,
+  "mdat_size": 1920,
+  "moov_at_end": true,
+  "tracks": 1,
+  "duration_ms": 3000,
+  "sample_count": 30,
+  "keyframes": [
+    1,
+    15,
+    29
+  ],
+  "box_tree": "ftyp start=0 size=32 body_start=8 body_size=24\nmdat start=32 size=1928 body_start=40 body_size=1920\nmoov start=1960 size=689 body_start=1968 body_size=681\n  mvhd start=1968 size=114 body_start=1976 body_size=106\n  trak start=2082 size=567 body_start=2090 body_size=559\n    tkhd start=2090 size=96 body_start=2098 body_size=88\n    mdia start=2186 size=463 body_start=2194 body_size=455\n      mdhd start=2194 size=32 body_start=2202 body_size=24\n      hdlr start=2226 size=45 body_start=2234 body_size=37\n      minf start=2271 size=378 body_start=2279 body_size=370\n        vmhd start=2279 size=20 body_start=2287 body_size=12\n        dinf start=2299 size=32 body_start=2307 body_size=24\n          dref start=2307 size=24 body_start=2315 body_size=16\n        stbl start=2331 size=318 body_start=2339 body_size=310\n          stsd start=2339 size=102 body_start=2347 body_size=94\n          stts start=2441 size=24 body_start=2449 body_size=16\n          stss start=2465 size=28 body_start=2473 body_size=20\n          stsz start=2493 size=20 body_start=2501 body_size=12\n          stco start=2513 size=136 body_start=2521 body_size=128",
+  "track_details": [
+    {
+      "track_id": 1,
+      "handler": "vide",
+      "timescale": 90000,
+      "duration": 270000,
+      "duration_ms": 3000,
+      "sample_count": 30,
+      "samples": [
+        {
+          "index": 1,
+          "offset": 40,
+          "size": 64,
+          "mdat_offset": 0,
+          "keyframe": true,
+          "dts": 0,
+          "duration": 3000
+        },
+        {
+          "index": 2,
+          "offset": 104,
+          "size": 64,
+          "mdat_offset": 64,
+          "keyframe": false,
+          "dts": 3000,
+          "duration": 3000
+        },
+        {
+          "index": 3,
+          "offset": 168,
+          "size": 64,
+          "mdat_offset": 128,
+          "keyframe": false,
+          "dts": 6000,
+          "duration": 3000
+        },
+        {
+          "index": 4,
+          "offset": 232,
+          "size": 64,
+          "mdat_offset": 192,
+          "keyframe": false,
+          "dts": 9000,
+          "duration": 3000
+        },
+        {
+          "index": 5,
+          "offset": 296,
+          "size": 64,
+          "mdat_offset": 256,
+          "keyframe": false,
+          "dts": 12000,
+          "duration": 3000
+        },
+        {
+          "index": 6,
+          "offset": 360,
+          "size": 64,
+          "mdat_offset": 320,
+          "keyframe": false,
+          "dts": 15000,
+          "duration": 3000
+        },
+        {
+          "index": 7,
+          "offset": 424,
+          "size": 64,
+          "mdat_offset": 384,
+          "keyframe": false,
+          "dts": 18000,
+          "duration": 3000
+        },
+        {
+          "index": 8,
+          "offset": 488,
+          "size": 64,
+          "mdat_offset": 448,
+          "keyframe": false,
+          "dts": 21000,
+          "duration": 3000
+        },
+        {
+          "index": 9,
+          "offset": 552,
+          "size": 64,
+          "mdat_offset": 512,
+          "keyframe": false,
+          "dts": 24000,
+          "duration": 3000
+        },
+        {
+          "index": 10,
+          "offset": 616,
+          "size": 64,
+          "mdat_offset": 576,
+          "keyframe": false,
+          "dts": 27000,
+          "duration": 3000
+        },
+        {
+          "index": 11,
+          "offset": 680,
+          "size": 64,
+          "mdat_offset": 640,
+          "keyframe": false,
+          "dts": 30000,
+          "duration": 3000
+        },
+        {
+          "index": 12,
+          "offset": 744,
+          "size": 64,
+          "mdat_offset": 704,
+          "keyframe": false,
+          "dts": 33000,
+          "duration": 3000
+        },
+        {
+          "index": 13,
+          "offset": 808,
+          "size": 64,
+          "mdat_offset": 768,
+          "keyframe": false,
+          "dts": 36000,
+          "duration": 3000
+        },
+        {
+          "index": 14,
+          "offset": 872,
+          "size": 64,
+          "mdat_offset": 832,
+          "keyframe": false,
+          "dts": 39000,
+          "duration": 3000
+        },
+        {
+          "index": 15,
+          "offset": 936,
+          "size": 64,
+          "mdat_offset": 896,
+          "keyframe": true,
+          "dts": 42000,
+          "duration": 3000
+        },
+        {
+          "index": 16,
+          "offset": 1000,
+          "size": 64,
+          "mdat_offset": 960,
+          "keyframe": false,
+          "dts": 45000,
+          "duration": 3000
+        },
+        {
+          "index": 17,
+          "offset": 1064,
+          "size": 64,
+          "mdat_offset": 1024,
+          "keyframe": false,
+          "dts": 48000,
+          "duration": 3000
+        },
+        {
+          "index": 18,
+          "offset": 1128,
+          "size": 64,
+          "mdat_offset": 1088,
+          "keyframe": false,
+          "dts": 51000,
+          "duration": 3000
+        },
+        {
+          "index": 19,
+          "offset": 1192,
+          "size": 64,
+          "mdat_offset": 1152,
+          "keyframe": false,
+          "dts": 54000,
+          "duration": 3000
+        },
+        {
+          "index": 20,
+          "offset": 1256,
+          "size": 64,
+          "mdat_offset": 1216,
+          "keyframe": false,
+          "dts": 57000,
+          "duration": 3000
+        },
+        {
+          "index": 21,
+          "offset": 1320,
+          "size": 64,
+          "mdat_offset": 1280,
+          "keyframe": false,
+          "dts": 60000,
+          "duration": 3000
+        },
+        {
+          "index": 22,
+          "offset": 1384,
+          "size": 64,
+          "mdat_offset": 1344,
+          "keyframe": false,
+          "dts": 63000,
+          "duration": 3000
+        },
+        {
+          "index": 23,
+          "offset": 1448,
+          "size": 64,
+          "mdat_offset": 1408,
+          "keyframe": false,
+          "dts": 66000,
+          "duration": 3000
+        },
+        {
+          "index": 24,
+          "offset": 1512,
+          "size": 64,
+          "mdat_offset": 1472,
+          "keyframe": false,
+          "dts": 69000,
+          "duration": 3000
+        },
+        {
+          "index": 25,
+          "offset": 1576,
+          "size": 64,
+          "mdat_offset": 1536,
+          "keyframe": false,
+          "dts": 72000,
+          "duration": 3000
+        },
+        {
+          "index": 26,
+          "offset": 1640,
+          "size": 64,
+          "mdat_offset": 1600,
+          "keyframe": false,
+          "dts": 75000,
+          "duration": 3000
+        },
+        {
+          "index": 27,
+          "offset": 1704,
+          "size": 64,
+          "mdat_offset": 1664,
+          "keyframe": false,
+          "dts": 78000,
+          "duration": 3000
+        },
+        {
+          "index": 28,
+          "offset": 1768,
+          "size": 64,
+          "mdat_offset": 1728,
+          "keyframe": false,
+          "dts": 81000,
+          "duration": 3000
+        },
+        {
+          "index": 29,
+          "offset": 1832,
+          "size": 64,
+          "mdat_offset": 1792,
+          "keyframe": true,
+          "dts": 84000,
+          "duration": 3000
+        },
+        {
+          "index": 30,
+          "offset": 1896,
+          "size": 64,
+          "mdat_offset": 1856,
+          "keyframe": false,
+          "dts": 87000,
+          "duration": 3000
+        }
+      ],
+      "keyframes": [
+        {
+          "sample": 1,
+          "offset": 40,
+          "size": 64,
+          "mdat_offset": 0
+        },
+        {
+          "sample": 15,
+          "offset": 936,
+          "size": 64,
+          "mdat_offset": 896
+        },
+        {
+          "sample": 29,
+          "offset": 1832,
+          "size": 64,
+          "mdat_offset": 1792
+        }
+      ]
+    }
+  ]
+}

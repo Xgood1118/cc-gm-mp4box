@@ -1,0 +1,33 @@
+在现有 mp4box 骨架上，把它做成一个能读出轨道与 sample 表的 MP4 解析器。保留 Box、parse_boxes、
+read_file、find、track_count、duration_ms 的现有名字与签名，只用 Python 标准库，不得引入第三方依赖，
+不得改动 data/clip.mp4。
+
+## 需要完成
+
+1. **层级**
+   - 容器型 box 要递归展开，moov 下的 trak、mdia、stbl 都要能遍历到。
+   - 输出一份缩进的 box 树，层级关系要正确。
+
+2. **长度与版本**
+   - 64 位长度要支持。
+   - 版本 0 与版本 1 的字段偏移差异要分别处理，时长不能错。
+
+3. **轨道**
+   - 轨道数量要按真实的 trak 计算，不能靠字符串计数。
+   - 每条轨道的 handler 类型、时间刻度、时长要能读出来。
+
+4. **sample 表**
+   - sample 数量、每个 sample 的偏移与大小要能读出来。
+   - 关键帧列表要能读出来，并指出关键帧在 mdat 里的偏移。
+   - 时长要按时间刻度换算成毫秒，误差不超过 1 毫秒。
+
+5. **抽帧**
+   - 按 sample 表把每个 sample 的字节抽出来，写成一个独立文件。
+   - 抽出的文件字节数与 stsz 记录一致。
+
+6. **测试**
+   - 覆盖：递归层级、64 位长度、版本字段、轨道数与时长、sample 偏移与大小、关键帧。
+   - `python -m pytest tests -q` 全部通过。
+
+完成后跑一遍 `python -m mp4box.cli data/clip.mp4 --out report.json`，把轨道数、时长、sample 总数、
+关键帧序号、mdat 起始偏移贴进 README。
